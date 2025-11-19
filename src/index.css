@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slideInFromRight {
+    animation: slideInFromRight 1s ease-out forwards;
+  }
+  .img-initial {
+    opacity: 0;
+    transform: translateX(100%);
+  } */
+
+
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slideInFromRight {
+    animation: slideInFromRight 1s ease-out forwards;
+  }
